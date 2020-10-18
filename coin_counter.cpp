@@ -19,7 +19,7 @@ float counter::check_for_next_bill(float remaining_amount)
     else if(remaining_amount >= FIFTY_DOLLAR_BILL && remaining_amount < HUNDRED_DOLLAR_BILL )
     {
         remaining_amount = remaining_amount - FIFTY_DOLLAR_BILL;
-        ++howMany100;
+        ++howMany50;
     }
     else if(remaining_amount >= TWENTY_DOLLAR_BILL && remaining_amount < FIFTY_DOLLAR_BILL)
     {
